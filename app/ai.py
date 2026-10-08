@@ -69,4 +69,3 @@ def validate_recommendations(result, catalog):
             raise AIError('The recommendation lacks verifiable catalog evidence. Try again.')
         seen.add(item.book_id)
     return result
-  
